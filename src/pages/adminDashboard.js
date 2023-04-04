@@ -167,20 +167,7 @@ export const AdminDashboard = () => {
                         </div>
                         
                     </div>
-                    <div className='product-container'>
-                        <div className="img-container">
-                            <img src={phone} alt="the phone image" />
-                        </div>
-                        <div className="product-infos">
-                            <h4>Iphone 14 Pro</h4>
-                            <p>$126.50</p>
-                        </div>
-                        <div className="product-numbers">
-                            <h4>$126.00</h4>
-                            <p>999 sales</p>
-                        </div>
-                        
-                    </div>
+                  
                     <button>Report</button>
                     
 

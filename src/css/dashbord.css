@@ -136,15 +136,15 @@
 .bs-container .header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 24px;
+  padding-bottom: 30px;
   border-bottom: 0.5px solid #232321;
   width: 100%;
 }
 .bs-container .product-container {
   display: flex;
-  /* justify-content: ; */
   gap: 16px;
   width: 100%;
+  align-items: center;
 }
 .product-container .img-container {
   width: 64px;
@@ -155,6 +155,16 @@
   max-width: 100%;
   object-fit: cover;
 }
-
+.product-container .product-infos {
+    margin-right: 40px;
+}
+.bs-container button  {
+  background-color: #232321;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
 
   /* end graph section */
